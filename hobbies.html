@@ -1,0 +1,153 @@
+<html>
+<head>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>
+      .overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: purple;
+	background-color: rgba(0,0,0, 0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+  }
+  
+  .overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+  }
+  
+  .overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+  }
+  
+div.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  width: 60%;
+  ;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+</style>
+</head>
+<body>
+    <header style="background-color: black; text-align: center;">
+      <center> <h1 class="animate__animated animate__zoomIn" style="color: white; height: 80px;">HOBBIES</h1></center> 
+    </header>
+    <br>
+    <hr>
+    <br>
+    <div style="background-color: purple;">
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+			  <a href="PL.html">HOME</a>
+			  <a href="hobbies.html">HOBBIES</a>
+			  <a href="achivements.html">ACHIEVEMENTS</a>
+			  <a href="family.html">FAMILY</a>
+			  <a href="future_plan.html">FUTURE PLAN</a>
+			  
+			</div>
+		  </div>
+		  </div>
+		  
+		  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+		  <script>
+			function openNav() {
+			  document.getElementById("myNav").style.width = "100%";
+			}
+			
+			function closeNav() {
+			  document.getElementById("myNav").style.width = "0%";
+			}
+			</script>
+
+            <br>
+            <hr>
+            <br>
+<div class="gallery">
+  <h1>WORKOUT</h1>
+  <a target="_blank" href="workout.jpg">
+    <img src="workout.jpg" alt="workout" width="auto" height="auto">
+  </a>
+  <div class="desc"><h4>Workout, also known as exercise or physical activity, can be a great hobby for people of all ages and fitness levels. Engaging in regular physical activity has been shown to have numerous benefits for both physical and mental health, including improved cardiovascular health, increased muscle strength and endurance, reduced risk of chronic diseases such as diabetes and obesity, and improved mood and cognitive function.
+
+    There are many different types of workouts that can be enjoyed as a hobby, including cardio exercises such as running, cycling, or swimming, strength training with weights or resistance bands, and activities such as yoga or Pilates that focus on flexibility and mindfulness.</h4></div>
+</div>
+<br>
+<br>
+<br>
+
+<div class="gallery">
+  <h1>WATCHING ANIME</h1>
+  <a target="_blank" href="anime.jpg">
+    <img src="anime.jpg" alt="Forest" width="600" height="200">
+  </a>
+  <div class="desc"><h4>Anime is a popular form of entertainment that originated in Japan and has since spread to all corners of the world. It is a unique form of animation that often features complex storylines, vivid characters, and stunning visuals.
+
+    As someone who enjoys anime as a hobby, you likely have a deep appreciation for this art form. Anime has become increasingly popular in recent years, with new series and movies being released regularly. Some of the most beloved anime series include Naruto, Attack on Titan, One Piece, and Fullmetal Alchemist, to name just a few.
+    
+    One of the great things about anime is that it covers a wide range of genres, from action and adventure to romance and comedy. There is truly something for everyone, whether you're looking for a thrilling, action-packed story or a heartwarming romance.</h4></div>
+</div>
+<br>
+<br>
+<br>
+<div class="gallery">
+  <h1>TAEKWONDO</h1>
+  <a target="_blank" href="taekwondo.jpg">
+    <img src="taekwondo.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc"><h4>Taekwondo is a martial art that originated in Korea and has since become a popular sport and fitness activity around the world. As someone who enjoys taekwondo as a hobby, you likely have a deep appreciation for the discipline, focus, and physicality that it requires.
+
+    One of the great things about taekwondo is that it is a versatile activity that can be enjoyed by people of all ages and skill levels. Whether you are a beginner or an experienced practitioner, there is always room for growth and improvement in taekwondo.
+    
+    Taekwondo is not just a physical activity, it is also a mental and spiritual one. Practicing taekwondo can help improve your focus, discipline, and self-confidence, while also promoting a sense of calm and inner peace.</h4></div>
+</div>
+<br>
+<br>
+<br>
+
+
+</body>
+</html>

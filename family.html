@@ -1,0 +1,127 @@
+<html>
+<head>
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>
+              .overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: purple;
+	background-color: rgba(0,0,0, 0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+  }
+  
+  .overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+  }
+  
+  .overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+  }
+  
+div.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  width: 60%;
+  ;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+</style>
+</head>
+<body>
+    <header style="background-color: black; text-align: center;">
+		<center> <h1 class="animate__animated animate__zoomIn" style="color: white; height: 80px;">FAMILY</h1></center> 
+	  </header>
+    <br>
+    <hr>
+    <br>
+    <div style="background-color: purple;">
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+			  <a href="PL.html">HOME</a>
+			  <a href="hobbies.html">HOBBIES</a>
+			  <a href="achivements.html">ACHIEVEMENTS</a>
+			  <a href="family.html">FAMILY</a>
+			  <a href="future_plan.html">FUTURE PLAN</a>
+			  
+			</div>
+		  </div>
+		  </div>
+		  
+		  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+		  <script>
+			function openNav() {
+			  document.getElementById("myNav").style.width = "100%";
+			}
+			
+			function closeNav() {
+			  document.getElementById("myNav").style.width = "0%";
+			}
+			</script>
+
+            <br>
+            <hr>
+            <br>
+            
+<div class="gallery" class="animate__animated animate__fadeInDown">
+  <a target="_blank" href="fam1.hyml.jpg">
+    <img src="fam1.hyml.jpg" alt="workout" width="auto" height="auto">  
+  <a target="_blank" href="fam2.jpg" style="height: 50%;">
+    <img src="fam2.jpg" alt="Forest" width="auto" height="auto">
+  </a>
+  <div class="desc">Family is an integral part of our lives, and it is one of the most crucial relationships that we develop from a young age. My family is my foundation, and I cannot imagine my life without them. I love my family with all my heart, and I cherish every moment that I spend with them.
+
+    My family consists of my parents, my siblings, and my grandparents. We may not be a large family, but we are close-knit, and we always support each other through thick and thin. My parents have been my role models, and they have always instilled in me the values of honesty, integrity, and hard work. They have always encouraged me to pursue my dreams and have supported me in every aspect of my life.
+    
+    My siblings are my best friends, and we have grown up together, sharing our joys and sorrows. We may have our differences, but we always come together to support each other. We have shared countless happy memories, and we have also been there for each other during challenging times.</div>
+</div>
+<br>
+<br>
+<br>
+
+
+
+</body>
+</html>
